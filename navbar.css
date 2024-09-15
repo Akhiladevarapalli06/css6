@@ -26,7 +26,7 @@ svg {
   }
 
   a {
-    color: #ffffff;
+    color: pink;
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -45,13 +45,20 @@ svg {
   a:hover{
     
     color: black;
-    background-color: white;
+    background-color:lightblue;
     border-radius: 15px;
     
   }
-  .fitness{
-    font-family: "Poppins", sans-serif;
+  h1{
+    background-image: linear-gradient(red,yellow);
+    border-radius: 50px;
+    width: fit-content;
+    margin-left: 150px;
   }
+  h1:hover{
+    transform: scale(0.5);
+  }
+  
   img:hover{
     transform: scale(1.5);
   }
